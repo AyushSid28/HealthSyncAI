@@ -1,0 +1,107 @@
+============================================================
+              CITY DIAGNOSTICS & PATHOLOGY LAB
+              123 Health Avenue, New Delhi - 110001
+              Ph: 011-4567890 | NABL Accredited
+============================================================
+
+PATIENT DETAILS
+------------------------------------------------------------
+Name        : Ayush Siddhant
+Age / Sex   : 24 / Male
+Ref. By     : Dr. Mehra (General Medicine)
+Sample Date : 25-Mar-2026
+Report Date : 26-Mar-2026
+Patient ID  : CDL/2026/08421
+
+============================================================
+                COMPLETE BLOOD COUNT (CBC)
+------------------------------------------------------------
+Hemoglobin (Hb)          : 13.2 g/dL       [13.0 - 17.0]
+Total WBC Count          : 7,200 /cumm     [4,000 - 11,000]
+RBC Count                : 4.8 million/cumm [4.5 - 5.5]
+Platelet Count           : 2.1 Lakh/cumm   [1.5 - 4.0]
+ESR                      : 12 mm/hr        [0 - 15]
+
+============================================================
+                 BLOOD SUGAR PROFILE
+------------------------------------------------------------
+Fasting Blood Sugar (FBS)     : 112 mg/dL   [70 - 100]
+Post Prandial Blood Sugar(PPBS): 158 mg/dL  [< 140]
+HbA1c (Glycated Hemoglobin)   : 6.1 %       [< 5.7]
+
+============================================================
+                  LIPID PROFILE
+------------------------------------------------------------
+Total Cholesterol        : 215 mg/dL        [< 200]
+HDL Cholesterol          : 44 mg/dL         [> 40]
+LDL Cholesterol          : 138 mg/dL        [< 100]
+Triglycerides            : 178 mg/dL        [< 150]
+VLDL Cholesterol         : 33 mg/dL         [< 30]
+
+============================================================
+              THYROID FUNCTION TEST (TFT)
+------------------------------------------------------------
+TSH (Thyroid Stimulating)  : 5.4 mIU/L      [0.4 - 4.0]
+Free T3                    : 2.8 pg/mL       [2.0 - 4.4]
+Free T4                    : 1.1 ng/dL       [0.8 - 1.8]
+
+============================================================
+              KIDNEY FUNCTION TEST (KFT)
+------------------------------------------------------------
+Blood Urea               : 28 mg/dL         [15 - 40]
+Serum Creatinine         : 1.0 mg/dL        [0.7 - 1.3]
+Uric Acid                : 6.2 mg/dL        [3.5 - 7.2]
+eGFR                     : 98 mL/min        [> 90]
+
+============================================================
+                 VITAMIN PROFILE
+------------------------------------------------------------
+Vitamin D (25-Hydroxy)   : 16 ng/mL         [30 - 100]
+Vitamin B12              : 195 pg/mL        [200 - 900]
+
+============================================================
+             LIVER FUNCTION TEST (LFT)
+------------------------------------------------------------
+SGPT (ALT)               : 32 U/L           [< 40]
+SGOT (AST)               : 28 U/L           [< 40]
+Alkaline Phosphatase     : 78 U/L           [44 - 147]
+Total Bilirubin          : 0.8 mg/dL        [0.1 - 1.2]
+
+============================================================
+                    VITALS (Recorded at Sample Collection)
+------------------------------------------------------------
+Blood Pressure           : 132/86 mmHg
+Heart Rate               : 78 bpm
+BMI                      : 26.8 kg/m²
+SpO2                     : 98%
+
+============================================================
+                 CLINICAL NOTES
+------------------------------------------------------------
+Known allergies: Sulfa drugs
+Current medications: None
+Patient complaints: Occasional fatigue, mild joint pain,
+  difficulty concentrating in the afternoon.
+Family Hx: Father - Type 2 DM, Mother - Hypothyroidism
+
+IMPRESSION:
+- Prediabetic range (FBS 112, HbA1c 6.1%)
+- Borderline dyslipidemia (elevated LDL, TG)
+- Subclinical hypothyroidism (TSH 5.4)
+- Vitamin D deficiency (16 ng/mL)
+- Vitamin B12 borderline low (195 pg/mL)
+- Overweight (BMI 26.8)
+
+ADVISED:
+- Repeat FBS in 3 months with dietary modifications
+- Start Vitamin D3 60,000 IU weekly x 8 weeks
+- Methylcobalamin 1500mcg daily
+- Lifestyle modifications: 30 min exercise daily
+- Review thyroid in 6 weeks, consider low-dose Levothyroxine
+  if TSH remains elevated
+
+============================================================
+            *** End of Report ***
+         This is a computer-generated report.
+         Validated by: Dr. S. Kumar, MD (Pathology)
+============================================================
