@@ -2,22 +2,16 @@
  GOOGLE FORM — HealthSync AI Wellness Survey
 ===============================================
 
-FORM TITLE: HealthSync AI - Wellness Assessment User Survey
-FORM DESCRIPTION: We are building an AI-powered wellness assessment platform as part of our Design Thinking project. This survey helps us understand your health tracking habits, pain points, and wellness awareness. Your responses are invaluable for shaping a better solution.
+FORM TITLE: HealthSync AI - Wellness Assessment Survey
+FORM DESCRIPTION: We are building an AI-powered wellness assessment platform. This short survey helps us understand your health tracking habits and wellness awareness. Takes less than 2 minutes.
 
------------------------------------------------
-SECTION 1: About You
 -----------------------------------------------
 
 FIELD 1: Email Address
   Type: Short text (Email validation ON)
   Required: Yes
 
-FIELD 2: Full Name
-  Type: Short text
-  Required: Yes
-
-FIELD 3: Which category best describes you?
+FIELD 2: Which category best describes you?
   Type: Multiple Choice
   Required: Yes
   Options:
@@ -25,21 +19,6 @@ FIELD 3: Which category best describes you?
     - Working Professional
     - Corporate Employee
     - Other: _____________ (allow custom text input)
-
-FIELD 4: Age Group
-  Type: Multiple Choice
-  Required: Yes
-  Options:
-    - Under 18
-    - 18-24
-    - 25-35
-    - 36-50
-    - 50+
-
------------------------------------------------
-SECTION 2: Understanding Your Wellness Habits (Empathy)
-DESCRIPTION: Help us understand how you currently manage your health and wellness.
------------------------------------------------
 
 QUESTION 1: How often do you get a full health check-up (blood work, lipid panel, etc.)?
   Type: Multiple Choice
@@ -102,62 +81,21 @@ QUESTION 7: Any additional comments or suggestions for a wellness assessment pla
   Required: No
 
 -----------------------------------------------
-SECTION 3: Wellness Knowledge Quiz
-DESCRIPTION: Test your health awareness with these 5 quick questions.
------------------------------------------------
+HOW TO CREATE ON GOOGLE FORMS:
 
-QUESTION 8: How often should one ideally get a complete health check-up after age 25?
-  Type: Multiple Choice
-  Required: Yes
-  Options:
-    a) Once every 5 years
-    b) Once a year  ← CORRECT
-    c) Only when feeling unwell
-    d) Once every 10 years
+1. Go to forms.google.com → click "+" (Blank form)
+2. Set title and description as above
+3. Add each field/question one by one
+4. For "Which category" → add options, click the 3 dots → toggle "Add Other"
+5. For Question 5 → choose "Linear scale", set 1 to 5
+6. For Question 6 → choose "Checkboxes" (not Multiple Choice)
+7. For Question 7 → choose "Paragraph"
+8. Go to Settings → toggle "Collect email addresses"
+9. Click "Send" → copy the link → share
 
-QUESTION 9: Which daily habit is most effective for improving both physical and mental wellness?
-  Type: Multiple Choice
-  Required: Yes
-  Options:
-    a) Skipping breakfast to reduce calorie intake
-    b) Sleeping only 4-5 hours to have more productive time
-    c) 30 minutes of moderate exercise like brisk walking or yoga  ← CORRECT
-    d) Consuming energy drinks for sustained focus
-
-QUESTION 10: What is the recommended daily water intake for an average adult?
-  Type: Multiple Choice
-  Required: Yes
-  Options:
-    a) 1-2 glasses per day
-    b) Only when you feel thirsty
-    c) 2.5 to 3.5 litres (8-12 glasses) per day  ← CORRECT
-    d) 5+ litres per day regardless of activity
-
-QUESTION 11: Which practice is scientifically supported for reducing chronic stress?
-  Type: Multiple Choice
-  Required: Yes
-  Options:
-    a) Eating only raw food at all times
-    b) Pranayama (controlled breathing) and meditation  ← CORRECT
-    c) Avoiding all physical activity during stress
-    d) Consuming herbal supplements without medical guidance
-
-QUESTION 12: A wellness score of 0-100 typically measures which dimensions?
-  Type: Multiple Choice
-  Required: Yes
-  Options:
-    a) Only blood pressure and cholesterol
-    b) Physical fitness, mental health, emotional balance, and lifestyle habits  ← CORRECT
-    c) Only BMI and body weight
-    d) Social media activity and screen time
-
------------------------------------------------
-FORM SETTINGS:
-  - Make it a Quiz (Settings > Quizzes > ON)
-  - Mark correct answers for Q8-Q12 as indicated above
-  - Release score immediately after submission
-  - Collect email addresses
-  - Limit to 1 response per person
-  - Show progress bar
-  - Shuffle question order: OFF
+WHERE RESPONSES ARE SAVED:
+- Click "Responses" tab at the top of your Google Form
+- All responses are saved there automatically
+- Click the green Sheets icon to export to a Google Spreadsheet
+- You can screenshot the response summary charts for your project report
 -----------------------------------------------
