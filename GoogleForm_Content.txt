@@ -1,0 +1,82 @@
+===============================================
+ GOOGLE FORM — HealthSync AI Wellness Survey
+===============================================
+
+FORM TITLE: HealthSync AI - Wellness Feedback Survey
+FORM DESCRIPTION: Help us improve HealthSync AI by sharing your feedback and testing your health knowledge. This survey is part of our Design Thinking project validation.
+
+-----------------------------------------------
+SECTION 1: About You
+-----------------------------------------------
+
+FIELD 1: Email Address
+  Type: Short text (Email validation ON)
+  Required: Yes
+
+FIELD 2: Which category best describes you?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    - Student
+    - Working Professional
+    - Corporate Employee
+    - Other: _____________ (allow custom text input)
+
+-----------------------------------------------
+SECTION 2: Wellness Knowledge Quiz
+DESCRIPTION: Test your health awareness with these 5 questions.
+-----------------------------------------------
+
+QUESTION 1: How often should one get a complete health check-up (including blood work, lipid profile, and thyroid function)?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) Once every 5 years
+    b) Once a year after age 25  ← CORRECT
+    c) Only when feeling unwell
+    d) Once every 10 years
+
+QUESTION 2: Which of the following is the most effective daily habit for improving both physical and mental wellness?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) Skipping breakfast to reduce calorie intake
+    b) Sleeping only 4-5 hours to have more productive time
+    c) 30 minutes of moderate exercise like brisk walking or yoga  ← CORRECT
+    d) Consuming energy drinks for sustained focus
+
+QUESTION 3: What is the recommended daily water intake for an average adult to maintain proper hydration and kidney function?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) 1-2 glasses per day
+    b) Only when you feel thirsty
+    c) 2.5 to 3.5 litres (8-12 glasses) per day  ← CORRECT
+    d) 5+ litres per day regardless of activity
+
+QUESTION 4: Which Ayurvedic practice is scientifically supported for reducing chronic stress and improving emotional resilience?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) Eating only raw food at all times
+    b) Pranayama (controlled breathing exercises) and meditation  ← CORRECT
+    c) Avoiding all physical activity during stress
+    d) Consuming herbal supplements without medical guidance
+
+QUESTION 5: A wellness score of 0-100 on a health dashboard typically factors in which of these dimensions?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) Only blood pressure and cholesterol levels
+    b) Physical fitness, mental health, emotional balance, and lifestyle habits  ← CORRECT
+    c) Only BMI and body weight
+    d) Social media activity and screen time
+
+-----------------------------------------------
+FORM SETTINGS:
+  - Make it a Quiz (toggle ON in Settings > Quizzes)
+  - Mark correct answers as indicated above
+  - Release score immediately after submission
+  - Collect email addresses
+  - Limit to 1 response per person
+-----------------------------------------------
