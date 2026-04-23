@@ -2,8 +2,8 @@
  GOOGLE FORM — HealthSync AI Wellness Survey
 ===============================================
 
-FORM TITLE: HealthSync AI - Wellness Feedback Survey
-FORM DESCRIPTION: Help us improve HealthSync AI by sharing your feedback and testing your health knowledge. This survey is part of our Design Thinking project validation.
+FORM TITLE: HealthSync AI - Wellness Assessment User Survey
+FORM DESCRIPTION: We are building an AI-powered wellness assessment platform as part of our Design Thinking project. This survey helps us understand your health tracking habits, pain points, and wellness awareness. Your responses are invaluable for shaping a better solution.
 
 -----------------------------------------------
 SECTION 1: About You
@@ -13,7 +13,11 @@ FIELD 1: Email Address
   Type: Short text (Email validation ON)
   Required: Yes
 
-FIELD 2: Which category best describes you?
+FIELD 2: Full Name
+  Type: Short text
+  Required: Yes
+
+FIELD 3: Which category best describes you?
   Type: Multiple Choice
   Required: Yes
   Options:
@@ -22,21 +26,96 @@ FIELD 2: Which category best describes you?
     - Corporate Employee
     - Other: _____________ (allow custom text input)
 
+FIELD 4: Age Group
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    - Under 18
+    - 18-24
+    - 25-35
+    - 36-50
+    - 50+
+
 -----------------------------------------------
-SECTION 2: Wellness Knowledge Quiz
-DESCRIPTION: Test your health awareness with these 5 questions.
+SECTION 2: Understanding Your Wellness Habits (Empathy)
+DESCRIPTION: Help us understand how you currently manage your health and wellness.
 -----------------------------------------------
 
-QUESTION 1: How often should one get a complete health check-up (including blood work, lipid profile, and thyroid function)?
+QUESTION 1: How often do you get a full health check-up (blood work, lipid panel, etc.)?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) Every year
+    b) Once every 2-3 years
+    c) Only when I feel something is wrong
+    d) I have never had one
+
+QUESTION 2: When you receive a lab report, how easy is it for you to understand the results?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) Very easy — I understand all parameters
+    b) Somewhat — I understand the basics but not the details
+    c) Difficult — I mostly rely on my doctor to explain
+    d) I don't bother reading them at all
+
+QUESTION 3: Do you currently use any app or platform to track your health and wellness?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) Yes, I use a dedicated health app (e.g., Apple Health, Google Fit)
+    b) I use a fitness tracker/wearable only
+    c) I track manually (diary, spreadsheet)
+    d) No, I don't track my health at all
+
+QUESTION 4: What is your biggest challenge when it comes to managing your wellness?
+  Type: Multiple Choice
+  Required: Yes
+  Options:
+    a) I don't know what my health data means
+    b) I get generic advice that doesn't apply to me
+    c) I lack motivation or follow-up after check-ups
+    d) I don't have time to focus on health
+
+QUESTION 5: How interested would you be in a platform that combines AI analysis with Ayurveda and holistic wellness approaches?
+  Type: Linear Scale (1-5)
+  Required: Yes
+  Labels:
+    1 = Not interested at all
+    5 = Extremely interested
+
+QUESTION 6: Which features would you find most useful in a wellness platform? (Select all that apply)
+  Type: Checkboxes (multiple selection)
+  Required: Yes
+  Options:
+    - AI-powered lab report interpretation
+    - Personalized wellness score (0-100)
+    - Risk alerts and early warnings
+    - Diet and nutrition recommendations
+    - Ayurveda/holistic health insights
+    - Appointment booking for wellness assessments
+    - Organizational wellness programs for schools/corporates
+    - Stress and mental health tracking
+
+QUESTION 7: Any additional comments or suggestions for a wellness assessment platform?
+  Type: Paragraph (long text)
+  Required: No
+
+-----------------------------------------------
+SECTION 3: Wellness Knowledge Quiz
+DESCRIPTION: Test your health awareness with these 5 quick questions.
+-----------------------------------------------
+
+QUESTION 8: How often should one ideally get a complete health check-up after age 25?
   Type: Multiple Choice
   Required: Yes
   Options:
     a) Once every 5 years
-    b) Once a year after age 25  ← CORRECT
+    b) Once a year  ← CORRECT
     c) Only when feeling unwell
     d) Once every 10 years
 
-QUESTION 2: Which of the following is the most effective daily habit for improving both physical and mental wellness?
+QUESTION 9: Which daily habit is most effective for improving both physical and mental wellness?
   Type: Multiple Choice
   Required: Yes
   Options:
@@ -45,7 +124,7 @@ QUESTION 2: Which of the following is the most effective daily habit for improvi
     c) 30 minutes of moderate exercise like brisk walking or yoga  ← CORRECT
     d) Consuming energy drinks for sustained focus
 
-QUESTION 3: What is the recommended daily water intake for an average adult to maintain proper hydration and kidney function?
+QUESTION 10: What is the recommended daily water intake for an average adult?
   Type: Multiple Choice
   Required: Yes
   Options:
@@ -54,29 +133,31 @@ QUESTION 3: What is the recommended daily water intake for an average adult to m
     c) 2.5 to 3.5 litres (8-12 glasses) per day  ← CORRECT
     d) 5+ litres per day regardless of activity
 
-QUESTION 4: Which Ayurvedic practice is scientifically supported for reducing chronic stress and improving emotional resilience?
+QUESTION 11: Which practice is scientifically supported for reducing chronic stress?
   Type: Multiple Choice
   Required: Yes
   Options:
     a) Eating only raw food at all times
-    b) Pranayama (controlled breathing exercises) and meditation  ← CORRECT
+    b) Pranayama (controlled breathing) and meditation  ← CORRECT
     c) Avoiding all physical activity during stress
     d) Consuming herbal supplements without medical guidance
 
-QUESTION 5: A wellness score of 0-100 on a health dashboard typically factors in which of these dimensions?
+QUESTION 12: A wellness score of 0-100 typically measures which dimensions?
   Type: Multiple Choice
   Required: Yes
   Options:
-    a) Only blood pressure and cholesterol levels
+    a) Only blood pressure and cholesterol
     b) Physical fitness, mental health, emotional balance, and lifestyle habits  ← CORRECT
     c) Only BMI and body weight
     d) Social media activity and screen time
 
 -----------------------------------------------
 FORM SETTINGS:
-  - Make it a Quiz (toggle ON in Settings > Quizzes)
-  - Mark correct answers as indicated above
+  - Make it a Quiz (Settings > Quizzes > ON)
+  - Mark correct answers for Q8-Q12 as indicated above
   - Release score immediately after submission
   - Collect email addresses
   - Limit to 1 response per person
+  - Show progress bar
+  - Shuffle question order: OFF
 -----------------------------------------------
