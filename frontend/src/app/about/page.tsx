@@ -42,9 +42,8 @@ const stats = [
 
 const team = [
   { name: "Ayush Siddhant", role: "Lead Developer & AI Architect" },
-  { name: "Team Member 2", role: "Frontend & UI/UX Designer" },
-  { name: "Team Member 3", role: "Backend & API Developer" },
-  { name: "Team Member 4", role: "Research & Testing Lead" },
+  { name: "Garvit Tyagi", role: "Frontend & UI/UX Designer" },
+  { name: "Aman Vats", role: "Backend & API Developer" },
 ];
 
 export default function AboutPage() {
@@ -193,7 +192,7 @@ export default function AboutPage() {
               Built by a passionate team of engineers and researchers.
             </p>
           </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-12 grid gap-6 sm:grid-cols-3">
             {team.map((member) => (
               <div
                 key={member.name}

@@ -6,12 +6,10 @@ import type {
 
 function getBaseUrl(): string {
   const raw = process.env.NEXT_PUBLIC_API_URL;
-  if (!raw || !raw.trim()) {
-    throw new Error(
-      "NEXT_PUBLIC_API_URL is not set. Copy .env.local.example to .env.local."
-    );
+  if (raw && raw.trim()) {
+    return raw.replace(/\/$/, "");
   }
-  return raw.replace(/\/$/, "");
+  return "/api/v1";
 }
 
 function formatHttpDetail(detail: unknown): string {
