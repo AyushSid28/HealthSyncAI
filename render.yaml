@@ -1,5 +1,15 @@
 services:
   - type: web
+    name: healthsyncai-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
+  - type: web
     name: healthsyncai
     runtime: node
     rootDir: frontend
@@ -8,3 +18,8 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          type: web
+          name: healthsyncai-backend
+          property: url

@@ -7,7 +7,12 @@ import type {
 function getBaseUrl(): string {
   const raw = process.env.NEXT_PUBLIC_API_URL;
   if (raw && raw.trim()) {
-    return raw.replace(/\/$/, "");
+    const clean = raw.trim().replace(/\/$/, "");
+    if (clean.includes("/api/v1")) {
+      return clean;
+    }
+    // Allow deployments to provide only the backend host/URL.
+    return `${clean}/api/v1`;
   }
   return "/api/v1";
 }
@@ -28,6 +33,17 @@ async function readJsonBody(res: Response): Promise<unknown> {
   if (!text) {
     return null;
   }
+
+  const contentType = res.headers.get("content-type") || "";
+  if (contentType.includes("text/html")) {
+    if (res.ok) {
+      throw new Error("Unexpected HTML response from API endpoint.");
+    }
+    throw new Error(
+      "API endpoint not found. Check NEXT_PUBLIC_API_URL and backend deployment."
+    );
+  }
+
   try {
     return JSON.parse(text) as unknown;
   } catch {

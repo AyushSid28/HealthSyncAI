@@ -14,6 +14,8 @@ const articles = [
     readTime: "8 min read",
     date: "Mar 25, 2026",
     featured: true,
+    image:
+      "https://images.unsplash.com/photo-1579165466741-7f35e4755660?auto=format&fit=crop&w=1200&q=80",
   },
   {
     slug: "ayurveda-meets-ai",
@@ -24,6 +26,8 @@ const articles = [
     readTime: "6 min read",
     date: "Mar 20, 2026",
     featured: true,
+    image:
+      "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=1200&q=80",
   },
   {
     slug: "stress-hidden-health-impact",
@@ -153,10 +157,18 @@ export default function BlogPage() {
                     key={article.slug}
                     className="group flex flex-col rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md"
                   >
-                    <div className="flex h-48 items-center justify-center rounded-t-2xl bg-gradient-to-br from-slate-100 to-slate-50">
-                      <svg className="h-16 w-16 text-slate-300" fill="none" viewBox="0 0 24 24" strokeWidth={0.5} stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6V7.5Z" />
-                      </svg>
+                    <div className="relative h-48 overflow-hidden rounded-t-2xl bg-gradient-to-br from-slate-100 to-slate-50">
+                      {article.image ? (
+                        <img
+                          src={article.image}
+                          alt={article.title}
+                          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                          onError={(e) => {
+                            (e.currentTarget as HTMLImageElement).style.display = "none";
+                          }}
+                        />
+                      ) : null}
+                      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-900/30 via-transparent to-transparent" />
                     </div>
                     <div className="flex flex-1 flex-col p-6">
                       <div className="flex items-center gap-3">
